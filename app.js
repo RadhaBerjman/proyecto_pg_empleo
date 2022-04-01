@@ -33,6 +33,14 @@ fetch("https://6243ad813da3ac772b053c05.mockapi.io/trabajo")
     
     console.log(lapiz)
     console.log(tachito)
+
+    lapiz.onclick = ()=>{
+      console.log("apreteboton")
+    }
+    tachito.onclick = ()=>{
+      console.log("apreteboton")
+    }
+
     tachito.addEventListener("click", () => {
       div_eliminar.classList.toggle("modal-none");
     });
